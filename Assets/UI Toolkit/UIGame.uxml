@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-items: flex-start; justify-content: space-between; flex-direction: row; align-self: auto; padding-top: 64px; padding-right: 64px; padding-bottom: 64px; padding-left: 64px;">
+        <ui:Button text="Go Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoBack" style="width: 20%; height: 10%; font-size: 48%; -unity-font-style: bold; background-color: rgb(160, 80, 80);" />
+        <ui:Label tabindex="-1" text="Time:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Stopwatch" style="width: 45%; height: 10%; font-size: 50%; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        <ui:Button text="Start!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" style="width: 20%; height: 10%; font-size: 48%; -unity-font-style: bold; background-color: rgb(60, 140, 95);" />
+    </ui:VisualElement>
+</ui:UXML>

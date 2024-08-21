@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: center; justify-content: space-around; align-self: auto; background-color: rgb(190, 180, 130); padding-top: 128px; padding-right: 64px; padding-bottom: 128px; padding-left: 64px;">
+        <ui:Label tabindex="-1" text="Jigsaw Puzzle" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GameTitle" style="-unity-font-style: bold; width: 60%; height: 30%; -unity-text-align: middle-center; -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=9f0ab2c5a905b1246860dc12b3d3d180&amp;type=3#NotInter-Regular&quot;); font-size: 150%;" />
+        <ui:DropdownField label="Difficulty Level:" name="SelectDifficult" style="width: 37.5%; height: 7.5%; font-size: 50%; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" style="width: 30%; height: 15%; background-color: rgb(80, 160, 100); font-size: 36%; -unity-font-style: bold;" />
+        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" style="width: 30%; height: 15%; background-color: rgb(170, 100, 80); font-size: 36%; -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>
